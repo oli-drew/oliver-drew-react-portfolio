@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/oli-drew/oliver-drew-react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/oli-drew/oliver-drew-react-portfolio/static/js/main.58df9e13.js",
-    "static/js/787.e2ba45d3.chunk.js": "/oli-drew/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js",
-    "static/media/logo.svg": "/oli-drew/oliver-drew-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/oli-drew/oliver-drew-react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/oli-drew/oliver-drew-react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.58df9e13.js.map": "/oli-drew/oliver-drew-react-portfolio/static/js/main.58df9e13.js.map",
-    "787.e2ba45d3.chunk.js.map": "/oli-drew/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js.map"
+    "main.css": "/oliver-drew-react-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/oliver-drew-react-portfolio/static/js/main.d13a1a41.js",
+    "static/js/787.e2ba45d3.chunk.js": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js",
+    "static/media/logo.svg": "/oliver-drew-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/oliver-drew-react-portfolio/index.html",
+    "main.073c9b0a.css.map": "/oliver-drew-react-portfolio/static/css/main.073c9b0a.css.map",
+    "main.d13a1a41.js.map": "/oliver-drew-react-portfolio/static/js/main.d13a1a41.js.map",
+    "787.e2ba45d3.chunk.js.map": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.58df9e13.js"
+    "static/js/main.d13a1a41.js"
   ]
 }
