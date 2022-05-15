@@ -1,0 +1,9 @@
+.logo::before {
+  content: "<h1> ";
+  color: var(--red);
+}
+
+.logo::after {
+  content: " </h1>";
+  color: var(--red);
+}

@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* CSS variables for colour pallet declared in root of the page */
+:root {
+  --dark-blue: #1d3557;
+  --blue: #457b9d;
+  --light: #f0f8ff;
+  --light-blue: #8baac5;
+  --red: #e63946;
+  --white: white;
+  --black: black;
+}
+
+/* General Styles */
+html,
+body {
+  font-family: Consolas, Monaco, "Lucida Console", "Liberation Mono",
+    "Courier New", Courier, monospace;
 }
