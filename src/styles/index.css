@@ -28,4 +28,6 @@ html,
 body {
   font-family: Consolas, Monaco, "Lucida Console", "Liberation Mono",
     "Courier New", Courier, monospace;
+    /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
 }

@@ -52,75 +52,7 @@ function Nav({ currentPage, handlePageChange }) {
           </div>
         </li>
       </ul>
-
-      {/* <div className="col-md-3 text-end">
-        <a className="btn btn-sm btn-outline-secondary" type="btn">
-          Resume
-        </a>
-      </div> */}
     </header>
-    // <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    //   <div className="container-fluid">
-    //     <button
-    //       className="navbar-toggler"
-    //       type="button"
-    //       data-bs-toggle="collapse"
-    //       data-bs-target="#navbarToggler"
-    //       aria-controls="navbarToggler"
-    //       aria-expanded="false"
-    //       aria-label="Toggle navigation"
-    //     >
-    //       <span className="navbar-toggler-icon"></span>
-    //     </button>
-    //     <a
-    //       className="navbar-brand logo"
-    //       href="#"
-    //       onClick={() => handlePageChange("Home")}
-    //     >
-    //       Oliver Drew | Web Developer
-    //     </a>
-    //     <div className="collapse navbar-collapse" id="navbarToggler">
-    //       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-    //         <li className="nav-item">
-    //           <a
-    //             className={
-    //               currentPage === "About" ? "nav-link active" : "nav-link"
-    //             }
-    //             href="#about"
-    //             onClick={() => handlePageChange("About")}
-    //           >
-    //             About
-    //           </a>
-    //         </li>
-    //         <li className="nav-item">
-    //           <a
-    //             className={
-    //               currentPage === "Work" ? "nav-link active" : "nav-link"
-    //             }
-    //             href="#work"
-    //             onClick={() => handlePageChange("Work")}
-    //           >
-    //             Work
-    //           </a>
-    //         </li>
-    //         <li className="nav-item">
-    //           <a
-    //             className={
-    //               currentPage === "Contact" ? "nav-link active" : "nav-link"
-    //             }
-    //             href="#contact"
-    //             onClick={() => handlePageChange("Contact")}
-    //           >
-    //             Contact
-    //           </a>
-    //         </li>
-    //       </ul>
-    //       <a className="btn btn-outline-secondary" type="btn">
-    //         Resume
-    //       </a>
-    //     </div>
-    //   </div>
-    // </nav>
   );
 }
 
