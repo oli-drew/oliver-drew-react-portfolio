@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/oliver-drew-react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/oliver-drew-react-portfolio/static/js/main.d13a1a41.js",
+    "main.css": "/oliver-drew-react-portfolio/static/css/main.9b08ff51.css",
+    "main.js": "/oliver-drew-react-portfolio/static/js/main.2f09aec0.js",
     "static/js/787.e2ba45d3.chunk.js": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js",
-    "static/media/logo.svg": "/oliver-drew-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/oliver-drew-react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/oliver-drew-react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.d13a1a41.js.map": "/oliver-drew-react-portfolio/static/js/main.d13a1a41.js.map",
+    "main.9b08ff51.css.map": "/oliver-drew-react-portfolio/static/css/main.9b08ff51.css.map",
+    "main.2f09aec0.js.map": "/oliver-drew-react-portfolio/static/js/main.2f09aec0.js.map",
     "787.e2ba45d3.chunk.js.map": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d13a1a41.js"
+    "static/css/main.9b08ff51.css",
+    "static/js/main.2f09aec0.js"
   ]
 }
