@@ -39,16 +39,7 @@ export default function PortfolioContainer() {
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main>
-        {/* <HeroImage />
-        <AboutMe />
-        <WorkShowcase />
-        <WorkProjects /> */}
-        {/* <WorkCard title="hello" description="this is the descripton" /> */}
-        <WorkShowcase />
-      </main>
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
+      <main className="container">{renderPage()}</main>
     </div>
   );
 }

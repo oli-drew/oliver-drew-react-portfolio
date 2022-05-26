@@ -7,8 +7,8 @@ function Nav({ currentPage, handlePageChange }) {
   return (
     <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
       <a
-        className="navbar-brand logo"
-        href="#"
+        className="navbar-brand logo mx-3"
+        href="/"
         onClick={() => handlePageChange("Home")}
       >
         Oliver Drew | Web Developer
@@ -45,11 +45,14 @@ function Nav({ currentPage, handlePageChange }) {
           </a>
         </li>
         <li className="nav-item">
-          <div className="nav-link">
+          {/* <div className="nav-link">
             <a className="btn btn-sm btn-outline-secondary" type="btn">
               Resume
             </a>
-          </div>
+          </div> */}
+          <a href="/" className="nav-link">
+            Resume
+          </a>
         </li>
       </ul>
     </header>

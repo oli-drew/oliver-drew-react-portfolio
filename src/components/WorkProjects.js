@@ -3,7 +3,7 @@ import image from "../img/default.jpg";
 const workProjects = {
   work: [
     {
-      title: "BAB",
+      title: "BAB 1",
       description: "Food finding app",
       gitURL: "http://bab.github",
       depURL: "http://bab.deployed",
@@ -11,7 +11,7 @@ const workProjects = {
       mainImg: "./img/default.jpg",
     },
     {
-      title: "BAB",
+      title: "BAB 2",
       description: "Food finding app",
       gitURL: "http://bab.github",
       depURL: "http://bab.deployed",
@@ -19,8 +19,9 @@ const workProjects = {
       mainImg: "",
     },
     {
-      title: "BAB",
-      description: "Food finding app",
+      title: "BAB 3",
+      description:
+        "Food finding app lormsdnfsmdnfsd nsdnsds jsndfnwkejf amsn  qmndknsd  q dkqdkqw  asda sd as nkdnkwekjwejkq.",
       gitURL: "http://bab.github",
       depURL: "http://bab.deployed",
       thumbnailImg: image,

@@ -4,7 +4,7 @@ import "../styles/WorkCard.css";
 class WorkCard extends Component {
   render() {
     return (
-      <div className="card">
+      <div className="card h-100">
         <img
           src={this.props.thumbnailImg}
           className="card-img-top"
@@ -13,10 +13,12 @@ class WorkCard extends Component {
         <div className="card-body">
           <h5 className="card-title">{this.props.title}</h5>
           <p className="card-text">{this.props.description}</p>
-          <a href={this.props.depURL} className="btn btn-primary">
+        </div>
+        <div class="card-footer d-flex justify-content-around">
+          <a href={this.props.depURL} className="btn btn-outline-secondary">
             Live Demo
           </a>
-          <a href={this.props.gitURL} className="btn btn-secondary">
+          <a href={this.props.gitURL} className="btn btn-outline-dark">
             GitHub Repo
           </a>
         </div>
