@@ -1,11 +1,64 @@
-import React from "react";
+import image from "../img/default.jpg";
 
-function WorkProject() {
-  return (
-    <div>
-      <p>Other work projects go here</p>
-    </div>
-  );
-}
+const workProjects = {
+  work: [
+    {
+      title: "BAB",
+      description: "Food finding app",
+      gitURL: "http://bab.github",
+      depURL: "http://bab.deployed",
+      thumbnailImg: image,
+      mainImg: "./img/default.jpg",
+    },
+    {
+      title: "BAB",
+      description: "Food finding app",
+      gitURL: "http://bab.github",
+      depURL: "http://bab.deployed",
+      thumbnailImg: image,
+      mainImg: "",
+    },
+    {
+      title: "BAB",
+      description: "Food finding app",
+      gitURL: "http://bab.github",
+      depURL: "http://bab.deployed",
+      thumbnailImg: image,
+      mainImg: "",
+    },
+    {
+      title: "BAB",
+      description: "Food finding app",
+      gitURL: "http://bab.github",
+      depURL: "http://bab.deployed",
+      thumbnailImg: image,
+      mainImg: "",
+    },
+    {
+      title: "BAB",
+      description: "Food finding app",
+      gitURL: "http://bab.github",
+      depURL: "http://bab.deployed",
+      thumbnailImg: image,
+      mainImg: "",
+    },
+    {
+      title: "BAB",
+      description: "Food finding app",
+      gitURL: "http://bab.github",
+      depURL: "http://bab.deployed",
+      thumbnailImg: image,
+      mainImg: "",
+    },
+    {
+      title: "BAB",
+      description: "Food finding app",
+      gitURL: "http://bab.github",
+      depURL: "http://bab.deployed",
+      thumbnailImg: image,
+      mainImg: "",
+    },
+  ],
+};
 
-export default WorkProject;
+export default workProjects;

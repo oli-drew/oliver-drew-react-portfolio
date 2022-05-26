@@ -3,7 +3,6 @@ import Nav from "./Nav";
 import HeroImage from "./HeroImage";
 import AboutMe from "./AboutMe";
 import WorkShowcase from "./WorkShowcase";
-import WorkProjects from "./WorkProjects";
 
 // Sub-pages
 import Home from "./pages/Home";
@@ -41,10 +40,12 @@ export default function PortfolioContainer() {
       {/* We are passing the currentPage from state and the function to update it */}
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>
-        <HeroImage />
+        {/* <HeroImage />
         <AboutMe />
         <WorkShowcase />
-        <WorkProjects />
+        <WorkProjects /> */}
+        {/* <WorkCard title="hello" description="this is the descripton" /> */}
+        <WorkShowcase />
       </main>
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
