@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Nav from "./Nav";
+import Footer from "./Footer";
 import HeroImage from "./HeroImage";
 import AboutMe from "./AboutMe";
 import WorkShowcase from "./WorkShowcase";
@@ -13,7 +14,7 @@ import Contact from "./pages/Contact";
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
 
-  // Check value of `currentPage`. Depending on the value of currentPage, we return the corresponding component to render.
+  // Check value of `currentPage`. Then return component to render.
   const renderPage = () => {
     if (currentPage === "Home") {
       console.log("home");
@@ -36,10 +37,12 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       {/* We are passing the currentPage from state and the function to update it */}
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <HeroImage />
       <main className="container">{renderPage()}</main>
+      <Footer />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import "../styles/Nav.css";
 // We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom">
       <a
         className="navbar-brand logo mx-3"
         href="/"
