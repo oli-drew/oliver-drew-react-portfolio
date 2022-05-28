@@ -7,3 +7,19 @@
   content: " </h1>";
   color: var(--red);
 }
+
+.nav-background {
+  background: var(--blue);
+}
+
+.nav-logo-background {
+  background-color: var(--light);
+}
+
+.nav-link-colour {
+  color: var(--light);
+}
+
+.nav-link-active {
+  color: var(--dark-blue);
+}

@@ -5,9 +5,9 @@ import "../styles/Nav.css";
 // We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom">
+    <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 nav-background">
       <a
-        className="navbar-brand logo mx-3"
+        className="navbar-brand logo mx-3 py-md-2 px-md-2 nav-logo-background"
         href="/"
         onClick={() => handlePageChange("Home")}
       >
@@ -17,7 +17,11 @@ function Nav({ currentPage, handlePageChange }) {
       <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li className="nav-item">
           <a
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            className={
+              currentPage === "About"
+                ? "nav-link nav-link-active"
+                : "nav-link nav-link-colour"
+            }
             href="#about"
             onClick={() => handlePageChange("About")}
           >
@@ -26,7 +30,11 @@ function Nav({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item">
           <a
-            className={currentPage === "Work" ? "nav-link active" : "nav-link"}
+            className={
+              currentPage === "Work"
+                ? "nav-link nav-link-active"
+                : "nav-link nav-link-colour"
+            }
             href="#work"
             onClick={() => handlePageChange("Work")}
           >
@@ -36,7 +44,9 @@ function Nav({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
+              currentPage === "Contact"
+                ? "nav-link nav-link-active"
+                : "nav-link nav-link-colour"
             }
             href="#contact"
             onClick={() => handlePageChange("Contact")}
@@ -50,7 +60,7 @@ function Nav({ currentPage, handlePageChange }) {
               Resume
             </a>
           </div> */}
-          <a href="/" className="nav-link">
+          <a href="/" className="nav-link nav-link-colour">
             Resume
           </a>
         </li>
