@@ -15,10 +15,20 @@ class WorkCard extends Component {
           <p className="card-text">{this.props.description}</p>
         </div>
         <div class="card-footer d-flex justify-content-around">
-          <a href={this.props.depURL} className="btn btn-outline-secondary">
+          <a
+            href={this.props.depURL}
+            className="btn btn-outline-secondary"
+            target="_blank"
+            rel="noreferrer"
+          >
             Live Demo
           </a>
-          <a href={this.props.gitURL} className="btn btn-outline-dark">
+          <a
+            href={this.props.gitURL}
+            className="btn btn-outline-dark"
+            target="_blank"
+            rel="noreferrer"
+          >
             GitHub Repo
           </a>
         </div>

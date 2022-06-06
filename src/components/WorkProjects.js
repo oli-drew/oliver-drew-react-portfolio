@@ -1,4 +1,10 @@
-import image from "../img/default.jpg";
+import sociifyImg from "../img/sociify.gif";
+import babImg from "../img/bab.gif";
+import techImg from "../img/tech-blog.gif";
+import quizImg from "../img/javascript-quiz.gif";
+import weatherImg from "../img/weather-dashboard.gif";
+import plannerImg from "../img/work-planner.gif";
+import wordImg from "../img/word-guess.png";
 
 const workProjects = {
   work: [
@@ -8,7 +14,7 @@ const workProjects = {
         "A simple portfolio site for aspiring developers, built with Node, Express, Handlebars, MySQL, and deployed to Heroku. Use it to create and edit your profile and search/view other peoples on the site.",
       gitURL: "https://github.com/gmadnani/Sociify",
       depURL: "https://sociify-fortran.herokuapp.com/",
-      thumbnailImg: image,
+      thumbnailImg: sociifyImg,
       mainImg: "./img/default.jpg",
     },
     {
@@ -17,7 +23,7 @@ const workProjects = {
         "BAB allows a user to search for a city, town or postcode and uses server-side APIs to find data relating to restaurants in that location.",
       gitURL: "https://github.com/oli-drew/bab-group-project-by-slackware",
       depURL: "https://oli-drew.github.io/bab-group-project-by-slackware/",
-      thumbnailImg: image,
+      thumbnailImg: babImg,
       mainImg: "",
     },
     {
@@ -26,7 +32,7 @@ const workProjects = {
         "CMS-style blog site about all things tech, built with Node, Express, Handlebars, MySQL, and deployed to Heroku. Use it to create and comment on the latests tech trends and news.",
       gitURL: "https://github.com/oli-drew/technology-blog-bootcamp-hw14",
       depURL: "https://tech-blog-bootcamp-hw14.herokuapp.com/",
-      thumbnailImg: image,
+      thumbnailImg: techImg,
       mainImg: "",
     },
     {
@@ -37,7 +43,7 @@ const workProjects = {
         "https://github.com/oli-drew/timed-quiz-on-javascript-fundamentals-for-bootcamp-hw4",
       depURL:
         "https://oli-drew.github.io/timed-quiz-on-javascript-fundamentals-for-bootcamp-hw4/",
-      thumbnailImg: image,
+      thumbnailImg: quizImg,
       mainImg: "",
     },
     {
@@ -46,7 +52,7 @@ const workProjects = {
         "A dashboard to see the weather outlook for multiple cities, built using the OpenWeather API. This weather dashboard has been designed to help users plan trips by saving previous searches, so the user can easily review the weather for their favourite locations.",
       gitURL: "https://github.com/oli-drew/weather-dashboard-for-bootcamp-hw6",
       depURL: "https://oli-drew.github.io/weather-dashboard-for-bootcamp-hw6/",
-      thumbnailImg: image,
+      thumbnailImg: weatherImg,
       mainImg: "",
     },
     {
@@ -57,7 +63,7 @@ const workProjects = {
         "https://github.com/oli-drew/work-day-scheduler-application-for-bootcamp-hw5",
       depURL:
         "https://oli-drew.github.io/work-day-scheduler-application-for-bootcamp-hw5/",
-      thumbnailImg: image,
+      thumbnailImg: plannerImg,
       mainImg: "",
     },
     {
@@ -66,7 +72,7 @@ const workProjects = {
         "A timed word guessing game. The user has 30 seconds to guess the word. When a user correctly guesses a letter, the corresponding blank '_' is replaced by the letter.",
       gitURL: "https://github.com/oli-drew/Word-Guess-Game-Mini-Project",
       depURL: "https://oli-drew.github.io/Word-Guess-Game-Mini-Project/",
-      thumbnailImg: image,
+      thumbnailImg: wordImg,
       mainImg: "",
     },
   ],

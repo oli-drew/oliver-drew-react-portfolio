@@ -1,0 +1,19 @@
+.footer-background {
+  background: var(--blue);
+}
+
+/* .footer-link-hover:hover {
+  color: var(--dark-blue);
+} */
+
+h5 a {
+  box-shadow: inset 0 0 0 0 var(--dark-blue);
+  color: var(--light);
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+h5 a:hover {
+  color: var(--light);
+  box-shadow: inset 200px 0 0 0 var(--dark-blue);
+}
