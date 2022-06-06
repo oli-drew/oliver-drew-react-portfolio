@@ -60,7 +60,11 @@ function Nav({ currentPage, handlePageChange }) {
               Resume
             </a>
           </div> */}
-          <a href="/" className="nav-link nav-link-colour">
+          <a
+            href="/Oliver-Drew-Resume.pdf"
+            className="nav-link nav-link-colour"
+            download
+          >
             Resume
           </a>
         </li>
