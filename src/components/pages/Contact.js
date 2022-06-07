@@ -25,6 +25,7 @@ export default function Contact() {
               title="Email"
               subtitle="Send me an email"
               email="oli_webdev@protonmail.com"
+              linkURL="mailto:oli_webdev@protonmail.com"
               isEmail={true}
             />
           </div>

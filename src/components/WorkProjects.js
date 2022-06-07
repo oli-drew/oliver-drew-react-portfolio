@@ -14,8 +14,7 @@ const workProjects = {
         "A simple portfolio site for aspiring developers, built with Node, Express, Handlebars, MySQL, and deployed to Heroku. Use it to create and edit your profile and search/view other peoples on the site.",
       gitURL: "https://github.com/gmadnani/Sociify",
       depURL: "https://sociify-fortran.herokuapp.com/",
-      thumbnailImg: sociifyImg,
-      mainImg: "./img/default.jpg",
+      img: sociifyImg,
     },
     {
       title: "Birmingham Association Banquets",
@@ -23,8 +22,7 @@ const workProjects = {
         "BAB allows a user to search for a city, town or postcode and uses server-side APIs to find data relating to restaurants in that location.",
       gitURL: "https://github.com/oli-drew/bab-group-project-by-slackware",
       depURL: "https://oli-drew.github.io/bab-group-project-by-slackware/",
-      thumbnailImg: babImg,
-      mainImg: "",
+      img: babImg,
     },
     {
       title: "Tech Blog",
@@ -32,8 +30,7 @@ const workProjects = {
         "CMS-style blog site about all things tech, built with Node, Express, Handlebars, MySQL, and deployed to Heroku. Use it to create and comment on the latests tech trends and news.",
       gitURL: "https://github.com/oli-drew/technology-blog-bootcamp-hw14",
       depURL: "https://tech-blog-bootcamp-hw14.herokuapp.com/",
-      thumbnailImg: techImg,
-      mainImg: "",
+      img: techImg,
     },
     {
       title: "JavaScript Quiz Game",
@@ -43,8 +40,7 @@ const workProjects = {
         "https://github.com/oli-drew/timed-quiz-on-javascript-fundamentals-for-bootcamp-hw4",
       depURL:
         "https://oli-drew.github.io/timed-quiz-on-javascript-fundamentals-for-bootcamp-hw4/",
-      thumbnailImg: quizImg,
-      mainImg: "",
+      img: quizImg,
     },
     {
       title: "Weather Dashboard",
@@ -52,8 +48,7 @@ const workProjects = {
         "A dashboard to see the weather outlook for multiple cities, built using the OpenWeather API. This weather dashboard has been designed to help users plan trips by saving previous searches, so the user can easily review the weather for their favourite locations.",
       gitURL: "https://github.com/oli-drew/weather-dashboard-for-bootcamp-hw6",
       depURL: "https://oli-drew.github.io/weather-dashboard-for-bootcamp-hw6/",
-      thumbnailImg: weatherImg,
-      mainImg: "",
+      img: weatherImg,
     },
     {
       title: "Work Day Planner",
@@ -63,8 +58,7 @@ const workProjects = {
         "https://github.com/oli-drew/work-day-scheduler-application-for-bootcamp-hw5",
       depURL:
         "https://oli-drew.github.io/work-day-scheduler-application-for-bootcamp-hw5/",
-      thumbnailImg: plannerImg,
-      mainImg: "",
+      img: plannerImg,
     },
     {
       title: "Word Guess",
@@ -72,8 +66,7 @@ const workProjects = {
         "A timed word guessing game. The user has 30 seconds to guess the word. When a user correctly guesses a letter, the corresponding blank '_' is replaced by the letter.",
       gitURL: "https://github.com/oli-drew/Word-Guess-Game-Mini-Project",
       depURL: "https://oli-drew.github.io/Word-Guess-Game-Mini-Project/",
-      thumbnailImg: wordImg,
-      mainImg: "",
+      img: wordImg,
     },
   ],
 };

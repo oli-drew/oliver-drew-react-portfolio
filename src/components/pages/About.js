@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../../img/oli-drew.webp";
 
-export default function About(handlePageChange) {
+export default function About() {
   return (
     <div className="container">
       <div className="row text-center pb-4">
@@ -37,10 +37,7 @@ export default function About(handlePageChange) {
           </p>
           <p></p>
           <p>
-            Please get in{" "}
-            <a href="#contact" onClick={() => handlePageChange("Contact")}>
-              contact
-            </a>{" "}
+            Please get in <a href="mailto:oli_webdev@protonmail.com">contact</a>{" "}
             if you would like to learn more about me and my work.
           </p>
         </div>

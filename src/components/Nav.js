@@ -6,8 +6,8 @@ function Nav({ currentPage, handlePageChange }) {
     <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 nav-background">
       <a
         className="navbar-brand logo mx-3 py-md-2 px-md-2 nav-logo-background"
-        href="/"
-        onClick={() => handlePageChange("Home")}
+        href="#about"
+        onClick={() => handlePageChange("About")}
       >
         Oliver Drew | Web Developer
       </a>
