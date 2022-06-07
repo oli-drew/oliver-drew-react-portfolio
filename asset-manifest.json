@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/oliver-drew-react-portfolio/static/css/main.9b08ff51.css",
-    "main.js": "/oliver-drew-react-portfolio/static/js/main.2f09aec0.js",
+    "main.css": "/oliver-drew-react-portfolio/static/css/main.ebe785a3.css",
+    "main.js": "/oliver-drew-react-portfolio/static/js/main.5d8eaf87.js",
     "static/js/787.e2ba45d3.chunk.js": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js",
+    "static/media/bab.gif": "/oliver-drew-react-portfolio/static/media/bab.7d67cdaeabe1bda0282f.gif",
+    "static/media/sociify.gif": "/oliver-drew-react-portfolio/static/media/sociify.2ec0585c375c5e0f8203.gif",
+    "static/media/tech-blog.gif": "/oliver-drew-react-portfolio/static/media/tech-blog.a589e816762ac7e4c0cf.gif",
+    "static/media/weather-dashboard.gif": "/oliver-drew-react-portfolio/static/media/weather-dashboard.2f384fc0838e9f559ace.gif",
+    "static/media/javascript-quiz.gif": "/oliver-drew-react-portfolio/static/media/javascript-quiz.50987d9b0a909a840ea9.gif",
+    "static/media/work-planner.gif": "/oliver-drew-react-portfolio/static/media/work-planner.10f4fe0cece6273cccf5.gif",
+    "static/media/oli-drew.webp": "/oliver-drew-react-portfolio/static/media/oli-drew.dc92a41ddbabce59d68a.webp",
+    "static/media/bullring.webp": "/oliver-drew-react-portfolio/static/media/bullring.3b9bc7a42daacaabf666.webp",
+    "static/media/word-guess.png": "/oliver-drew-react-portfolio/static/media/word-guess.da162642d918f1f40913.png",
     "index.html": "/oliver-drew-react-portfolio/index.html",
-    "main.9b08ff51.css.map": "/oliver-drew-react-portfolio/static/css/main.9b08ff51.css.map",
-    "main.2f09aec0.js.map": "/oliver-drew-react-portfolio/static/js/main.2f09aec0.js.map",
+    "main.ebe785a3.css.map": "/oliver-drew-react-portfolio/static/css/main.ebe785a3.css.map",
+    "main.5d8eaf87.js.map": "/oliver-drew-react-portfolio/static/js/main.5d8eaf87.js.map",
     "787.e2ba45d3.chunk.js.map": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b08ff51.css",
-    "static/js/main.2f09aec0.js"
+    "static/css/main.ebe785a3.css",
+    "static/js/main.5d8eaf87.js"
   ]
 }
