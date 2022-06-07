@@ -1,13 +1,21 @@
-import sociifyImg from "../img/sociify.gif";
-import babImg from "../img/bab.gif";
+import sociifyImg from "../img/sociify.webp";
+import babImg from "../img/bab.webp";
 import techImg from "../img/tech-blog.gif";
-import quizImg from "../img/javascript-quiz.gif";
-import weatherImg from "../img/weather-dashboard.gif";
-import plannerImg from "../img/work-planner.gif";
-import wordImg from "../img/word-guess.png";
+import quizImg from "../img/javascript-quiz.webp";
+import weatherImg from "../img/weather-dashboard.webp";
+import plannerImg from "../img/work-planner.webp";
+import wordImg from "../img/word-guess.webp";
 
 const workProjects = {
   work: [
+    {
+      title: "Tech Blog",
+      description:
+        "CMS-style blog site about all things tech, built with Node, Express, Handlebars, MySQL, and deployed to Heroku. Use it to create and comment on the latests tech trends and news.",
+      gitURL: "https://github.com/oli-drew/technology-blog-bootcamp-hw14",
+      depURL: "https://tech-blog-bootcamp-hw14.herokuapp.com/",
+      img: techImg,
+    },
     {
       title: "Sociify",
       description:
@@ -23,14 +31,6 @@ const workProjects = {
       gitURL: "https://github.com/oli-drew/bab-group-project-by-slackware",
       depURL: "https://oli-drew.github.io/bab-group-project-by-slackware/",
       img: babImg,
-    },
-    {
-      title: "Tech Blog",
-      description:
-        "CMS-style blog site about all things tech, built with Node, Express, Handlebars, MySQL, and deployed to Heroku. Use it to create and comment on the latests tech trends and news.",
-      gitURL: "https://github.com/oli-drew/technology-blog-bootcamp-hw14",
-      depURL: "https://tech-blog-bootcamp-hw14.herokuapp.com/",
-      img: techImg,
     },
     {
       title: "JavaScript Quiz Game",

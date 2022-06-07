@@ -4,11 +4,13 @@ class WorkCard extends Component {
   render() {
     return (
       <div className="card h-100">
-        <img
-          src={this.props.img}
-          className="card-img-top"
-          alt={`Screenshot of the ${this.props.title} project`}
-        />
+        <a href={this.props.depURL} target="_blank" rel="noreferrer">
+          <img
+            src={this.props.img}
+            className="card-img-top"
+            alt={`Screenshot of the ${this.props.title} project`}
+          />
+        </a>
         <div className="card-body">
           <h5 className="card-title">{this.props.title}</h5>
           <p className="card-text">{this.props.description}</p>

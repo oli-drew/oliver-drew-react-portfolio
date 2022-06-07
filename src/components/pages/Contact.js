@@ -1,9 +1,9 @@
 import React from "react";
 import ContactCard from "../ContactCard";
-import ghIcon from "../../img/GitHub-Icon.png";
-import emailIcon from "../../img/email-icon.png";
-import linkedInIcon from "../../img/linkedin-icon.png";
-import stackoverflowIcon from "../../img/stackoverflow-icon.png";
+import ghIcon from "../../img/GitHub-Icon.webp";
+import emailIcon from "../../img/email-icon.webp";
+import linkedInIcon from "../../img/linkedin-icon.webp";
+import stackoverflowIcon from "../../img/stackoverflow-icon.webp";
 
 export default function Contact() {
   return (
