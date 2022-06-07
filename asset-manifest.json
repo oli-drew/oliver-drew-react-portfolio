@@ -1,24 +1,28 @@
 {
   "files": {
     "main.css": "/oliver-drew-react-portfolio/static/css/main.ebe785a3.css",
-    "main.js": "/oliver-drew-react-portfolio/static/js/main.7723803f.js",
+    "main.js": "/oliver-drew-react-portfolio/static/js/main.d6d66da0.js",
     "static/js/787.e2ba45d3.chunk.js": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js",
-    "static/media/bab.gif": "/oliver-drew-react-portfolio/static/media/bab.7d67cdaeabe1bda0282f.gif",
-    "static/media/sociify.gif": "/oliver-drew-react-portfolio/static/media/sociify.2ec0585c375c5e0f8203.gif",
     "static/media/tech-blog.gif": "/oliver-drew-react-portfolio/static/media/tech-blog.a589e816762ac7e4c0cf.gif",
-    "static/media/weather-dashboard.gif": "/oliver-drew-react-portfolio/static/media/weather-dashboard.2f384fc0838e9f559ace.gif",
-    "static/media/javascript-quiz.gif": "/oliver-drew-react-portfolio/static/media/javascript-quiz.50987d9b0a909a840ea9.gif",
-    "static/media/work-planner.gif": "/oliver-drew-react-portfolio/static/media/work-planner.10f4fe0cece6273cccf5.gif",
     "static/media/oli-drew.webp": "/oliver-drew-react-portfolio/static/media/oli-drew.dc92a41ddbabce59d68a.webp",
+    "static/media/bab.webp": "/oliver-drew-react-portfolio/static/media/bab.6fa07735dff921d99e8e.webp",
     "static/media/bullring.webp": "/oliver-drew-react-portfolio/static/media/bullring.3b9bc7a42daacaabf666.webp",
-    "static/media/word-guess.png": "/oliver-drew-react-portfolio/static/media/word-guess.da162642d918f1f40913.png",
+    "static/media/sociify.webp": "/oliver-drew-react-portfolio/static/media/sociify.af064b5281e54d0e1835.webp",
+    "static/media/weather-dashboard.webp": "/oliver-drew-react-portfolio/static/media/weather-dashboard.39edf2ad20a3bb62f1e0.webp",
+    "static/media/javascript-quiz.webp": "/oliver-drew-react-portfolio/static/media/javascript-quiz.b91bf11d7950bec0f025.webp",
+    "static/media/work-planner.webp": "/oliver-drew-react-portfolio/static/media/work-planner.9198adcc56ad3cf12fef.webp",
+    "static/media/word-guess.webp": "/oliver-drew-react-portfolio/static/media/word-guess.82b32734b330f1346177.webp",
+    "static/media/GitHub-Icon.webp": "/oliver-drew-react-portfolio/static/media/GitHub-Icon.75dc5f1ca914fc1cb1a2.webp",
+    "static/media/linkedin-icon.webp": "/oliver-drew-react-portfolio/static/media/linkedin-icon.ed220f19de6f463a4497.webp",
+    "static/media/stackoverflow-icon.webp": "/oliver-drew-react-portfolio/static/media/stackoverflow-icon.a88a1b3ae5e996fe3318.webp",
+    "static/media/email-icon.webp": "/oliver-drew-react-portfolio/static/media/email-icon.fb7ef18b8b95684e357b.webp",
     "index.html": "/oliver-drew-react-portfolio/index.html",
     "main.ebe785a3.css.map": "/oliver-drew-react-portfolio/static/css/main.ebe785a3.css.map",
-    "main.7723803f.js.map": "/oliver-drew-react-portfolio/static/js/main.7723803f.js.map",
+    "main.d6d66da0.js.map": "/oliver-drew-react-portfolio/static/js/main.d6d66da0.js.map",
     "787.e2ba45d3.chunk.js.map": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebe785a3.css",
-    "static/js/main.7723803f.js"
+    "static/js/main.d6d66da0.js"
   ]
 }
