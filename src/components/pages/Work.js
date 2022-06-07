@@ -4,7 +4,7 @@ import WorkShowcase from "../WorkShowcase";
 export default function Work() {
   return (
     <div>
-      <h1>My Work</h1>
+      <h2>My Work</h2>
       <WorkShowcase />
     </div>
   );

@@ -5,7 +5,7 @@ export default function About(handlePageChange) {
   return (
     <div className="container">
       <div className="row text-center pb-4">
-        <h1>About Me</h1>
+        <h2>About Me</h2>
       </div>
       <div className="row">
         <div className="col-xl-4 text-center pb-4">
@@ -14,6 +14,7 @@ export default function About(handlePageChange) {
             width="300"
             height="300"
             src={image}
+            alt="Profile of Oliver Drew"
           />
         </div>
         <div className="col-xl-8">

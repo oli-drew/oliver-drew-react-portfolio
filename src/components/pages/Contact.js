@@ -1,22 +1,51 @@
-import React from 'react';
+import React from "react";
+import ContactCard from "../ContactCard";
+import ghIcon from "../../img/GitHub-Icon.png";
+import emailIcon from "../../img/email-icon.png";
+import linkedInIcon from "../../img/linkedin-icon.png";
+import stackoverflowIcon from "../../img/stackoverflow-icon.png";
 
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h2>Contact Me</h2>
+      <div className="container">
+        <div className="row mt-4">
+          <div className="col-md-3">
+            <ContactCard
+              icon={ghIcon}
+              title="GitHub"
+              subtitle="Follow me on GitHub"
+              linkURL="https://github.com/oli-drew"
+            />
+          </div>
+          <div className="col-md-3">
+            <ContactCard
+              icon={emailIcon}
+              title="Email"
+              subtitle="Send me an email"
+              email="oli_webdev@protonmail.com"
+              isEmail={true}
+            />
+          </div>
+          <div className="col-md-3">
+            <ContactCard
+              icon={linkedInIcon}
+              title="LinkedIn"
+              subtitle="Connect with me on LinkedIn"
+              linkURL="https://uk.linkedin.com/in/oliver-drew"
+            />
+          </div>
+          <div className="col-md-3">
+            <ContactCard
+              icon={stackoverflowIcon}
+              title="Stack Overflow"
+              subtitle="Follow me on Stack Overflow"
+              linkURL="https://stackoverflow.com/users/16805384/oli-drew"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

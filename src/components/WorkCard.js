@@ -6,7 +6,7 @@ class WorkCard extends Component {
     return (
       <div className="card h-100">
         <img
-          src={this.props.thumbnailImg}
+          src={this.props.icon}
           className="card-img-top"
           alt={this.props.description}
         />
