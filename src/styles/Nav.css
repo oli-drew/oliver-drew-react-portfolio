@@ -16,8 +16,16 @@
   background-color: var(--light);
 }
 
-.nav-link-colour {
+.nav-link {
   color: var(--light);
+}
+
+.nav-link:hover {
+  color: var(--dark-blue);
+}
+
+.nav-link:focus {
+  color: var(--dark-blue);
 }
 
 .nav-link-active {

@@ -2,10 +2,6 @@
   background: var(--blue);
 }
 
-/* .footer-link-hover:hover {
-  color: var(--dark-blue);
-} */
-
 h5 a {
   box-shadow: inset 0 0 0 0 var(--dark-blue);
   color: var(--light);

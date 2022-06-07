@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/Nav.css";
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
     <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 nav-background">
@@ -18,9 +16,7 @@ function Nav({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             className={
-              currentPage === "About"
-                ? "nav-link nav-link-active"
-                : "nav-link nav-link-colour"
+              currentPage === "About" ? "nav-link nav-link-active" : "nav-link"
             }
             href="#about"
             onClick={() => handlePageChange("About")}
@@ -31,9 +27,7 @@ function Nav({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             className={
-              currentPage === "Work"
-                ? "nav-link nav-link-active"
-                : "nav-link nav-link-colour"
+              currentPage === "Work" ? "nav-link nav-link-active" : "nav-link"
             }
             href="#work"
             onClick={() => handlePageChange("Work")}
@@ -46,7 +40,7 @@ function Nav({ currentPage, handlePageChange }) {
             className={
               currentPage === "Contact"
                 ? "nav-link nav-link-active"
-                : "nav-link nav-link-colour"
+                : "nav-link"
             }
             href="#contact"
             onClick={() => handlePageChange("Contact")}
@@ -55,16 +49,7 @@ function Nav({ currentPage, handlePageChange }) {
           </a>
         </li>
         <li className="nav-item">
-          {/* <div className="nav-link">
-            <a className="btn btn-sm btn-outline-secondary" type="btn">
-              Resume
-            </a>
-          </div> */}
-          <a
-            href="/Oliver-Drew-Resume.pdf"
-            className="nav-link nav-link-colour"
-            download
-          >
+          <a href="/Oliver-Drew-Resume.pdf" className="nav-link" download>
             Resume
           </a>
         </li>
