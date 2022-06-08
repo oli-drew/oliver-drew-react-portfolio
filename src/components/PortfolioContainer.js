@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Nav from "./Nav";
+import Header from "./Header";
 import Footer from "./Footer";
 import HeroImage from "./HeroImage";
 
@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
 
   return (
     <div className="d-flex flex-column min-vh-100">
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <HeroImage />
       <main className="container">{renderPage()}</main>
       <Footer />
