@@ -37,10 +37,21 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a href="/Oliver-Drew-Resume.pdf" className="nav-link" download>
+        <a
+          className={
+            currentPage === "Resume" ? "nav-link nav-link-active" : "nav-link"
+          }
+          href="#resume"
+          onClick={() => handlePageChange("Resume")}
+        >
           Resume
         </a>
       </li>
+      {/* <li className="nav-item">
+        <a href="/Oliver-Drew-Resume.pdf" className="nav-link" download>
+          Resume
+        </a>
+      </li> */}
     </ul>
   );
 }
