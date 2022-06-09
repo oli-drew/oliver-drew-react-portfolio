@@ -29,11 +29,15 @@ class ContactForm extends Component {
             type="text"
             className="form-control"
             name="name"
+            onMouseLeave={validation}
+            onMouseEnter={resetValidation}
             onFocus={resetValidation}
             onBlur={validation}
           />
           <div className="valid-feedback">Nice name!</div>
-          <div className="invalid-feedback">Please enter a name</div>
+          <div className="invalid-feedback">
+            Hey! Get back here.. This field is required.
+          </div>
         </div>
         <div className="form-group">
           <label htmlFor="email">Email</label>
@@ -41,6 +45,8 @@ class ContactForm extends Component {
             type="email"
             className="form-control"
             name="email"
+            onMouseLeave={validation}
+            onMouseEnter={resetValidation}
             onFocus={resetValidation}
             onBlur={validation}
           />
@@ -52,6 +58,8 @@ class ContactForm extends Component {
           <textarea
             className="form-control"
             name="message"
+            onMouseLeave={validation}
+            onMouseEnter={resetValidation}
             onFocus={resetValidation}
             onBlur={validation}
           ></textarea>
