@@ -1,5 +1,6 @@
 import React from "react";
 import ContactCard from "../ContactCard";
+import ContactForm from "../ContactForm";
 import ghIcon from "../../img/GitHub-Icon.webp";
 import emailIcon from "../../img/email-icon.webp";
 import linkedInIcon from "../../img/linkedin-icon.webp";
@@ -8,8 +9,13 @@ import stackoverflowIcon from "../../img/stackoverflow-icon.webp";
 export default function Contact() {
   return (
     <div>
-      <h2>Contact Me</h2>
+      <h2 className="text-center">Contact Me</h2>
       <div className="container">
+        <div className="row justify-content-md-center">
+          <div className="col-lg-6 col-md-8">
+            <ContactForm />
+          </div>
+        </div>
         <div className="row mt-4">
           <div className="col-md-3">
             <ContactCard
