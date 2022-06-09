@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oliver-drew-react-portfolio/static/css/main.ebe785a3.css",
-    "main.js": "/oliver-drew-react-portfolio/static/js/main.d6d66da0.js",
+    "main.css": "/oliver-drew-react-portfolio/static/css/main.1a753b3f.css",
+    "main.js": "/oliver-drew-react-portfolio/static/js/main.eb298c24.js",
     "static/js/787.e2ba45d3.chunk.js": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js",
     "static/media/tech-blog.gif": "/oliver-drew-react-portfolio/static/media/tech-blog.a589e816762ac7e4c0cf.gif",
     "static/media/oli-drew.webp": "/oliver-drew-react-portfolio/static/media/oli-drew.dc92a41ddbabce59d68a.webp",
@@ -17,12 +17,12 @@
     "static/media/stackoverflow-icon.webp": "/oliver-drew-react-portfolio/static/media/stackoverflow-icon.a88a1b3ae5e996fe3318.webp",
     "static/media/email-icon.webp": "/oliver-drew-react-portfolio/static/media/email-icon.fb7ef18b8b95684e357b.webp",
     "index.html": "/oliver-drew-react-portfolio/index.html",
-    "main.ebe785a3.css.map": "/oliver-drew-react-portfolio/static/css/main.ebe785a3.css.map",
-    "main.d6d66da0.js.map": "/oliver-drew-react-portfolio/static/js/main.d6d66da0.js.map",
+    "main.1a753b3f.css.map": "/oliver-drew-react-portfolio/static/css/main.1a753b3f.css.map",
+    "main.eb298c24.js.map": "/oliver-drew-react-portfolio/static/js/main.eb298c24.js.map",
     "787.e2ba45d3.chunk.js.map": "/oliver-drew-react-portfolio/static/js/787.e2ba45d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebe785a3.css",
-    "static/js/main.d6d66da0.js"
+    "static/css/main.1a753b3f.css",
+    "static/js/main.eb298c24.js"
   ]
 }
