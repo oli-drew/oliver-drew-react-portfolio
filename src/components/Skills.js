@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../styles/Skills.css";
 
 class Skills extends Component {
   render() {
@@ -6,19 +7,36 @@ class Skills extends Component {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 py-3">
-            <h1>List 1</h1>
-            <ul className="list-group">
-              <li className="list-group-item">A second item</li>
-              <li className="list-group-item">A third item</li>
-              <li className="list-group-item">A fourth item</li>
-              <li className="list-group-item">And a fifth one</li>
+            <h4>Front End</h4>
+            <ul className="list-group list-group-hover">
+              <li className="list-group-item">HTML/CSS/JavaScript</li>
+              <li className="list-group-item">React</li>
+              <li className="list-group-item">Progressive Web Apps</li>
+              <li className="list-group-item">Bootstrap</li>
+              <li className="list-group-item">Bulma Framework</li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-6 py-3">
-            <h1>List 2</h1>
+            <h4>Back End</h4>
+            <ul className="list-group list-group-hover">
+              <li className="list-group-item">Node</li>
+              <li className="list-group-item">Express</li>
+              <li className="list-group-item">MySQL with Sequelize</li>
+              <li className="list-group-item">MongoDB with Mongoose</li>
+              <li className="list-group-item">GraphQL using Apollo server</li>
+            </ul>
           </div>
           <div className="col-lg-4 col-md-6 py-3">
-            <h1>List 3</h1>
+            <h4>Soft Skills</h4>
+            <ul className="list-group list-group-hover">
+              <li className="list-group-item">Self Learning</li>
+              <li className="list-group-item">Project Management</li>
+              <li className="list-group-item">Communication</li>
+              <li className="list-group-item">Problem-Solving</li>
+              <li className="list-group-item">
+                Time Management and Organization
+              </li>
+            </ul>
           </div>
         </div>
       </div>
