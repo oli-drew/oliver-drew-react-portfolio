@@ -1,5 +1,6 @@
 import React from "react";
 import Skills from "../Skills";
+import resumePDF from "../../assets/Oliver-Drew-Resume.pdf";
 
 export default function Resume() {
   return (
@@ -7,7 +8,7 @@ export default function Resume() {
       <div className="row">
         <div className="col text-center">
           <a
-            href="/Oliver-Drew-Resume.pdf"
+            href={resumePDF}
             type="button"
             className="btn btn-outline-secondary btn-lg"
             download
